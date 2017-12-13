@@ -23,7 +23,7 @@ baseurl: "/MLplayground" # the subpath of your site, e.g. /blog
 url: "https://fallen32.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  fallen32
-repository: fallen32.github.io
+repository: 'fallen32/MLplayground'
 
 # Build settings
 markdown: kramdown
