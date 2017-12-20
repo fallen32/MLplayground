@@ -1,1 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-14T00:36:37+09:00</updated><id>http://localhost:4000/</id><title type="html">Eric’s ML Playground!</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">ML Playground day 1</title><link href="http://localhost:4000/2017/12/13/Start.html" rel="alternate" type="text/html" title="ML Playground day 1" /><published>2017-12-13T00:00:00+09:00</published><updated>2017-12-13T00:00:00+09:00</updated><id>http://localhost:4000/2017/12/13/Start</id><content type="html" xml:base="http://localhost:4000/2017/12/13/Start.html"></content><author><name></name></author><summary type="html"></summary></entry></feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric's ML Playground</title>
+    <description>This is the blog of ML newbie. Maybe you will see very rubish codes but please let me know the better ways. Thank you!
+</description>
+    <link>http://fallen32.github.io/MLplayground/</link>
+    <atom:link href="http://fallen32.github.io/MLplayground/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 21 Dec 2017 01:09:42 +0900</pubDate>
+    <lastBuildDate>Thu, 21 Dec 2017 01:09:42 +0900</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Jekyll in Windows: I took a week to install Jekyll</title>
+        <description>&lt;p&gt;Ok, I took a week to install Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Jekyll is a good static site generator(Am I right?). It is easy to install with good other blogs.&lt;/p&gt;
+
+&lt;p&gt;However, I spend a week. Let me share my failure experience.&lt;/p&gt;
+
+&lt;p&gt;I tried to use Jekyll-theme-slate. This Theme is uncommon which does not make a post in _post/. 
+I think this is the theme for really simple site which contains only informations about certain project. 
+Therefore, if you want to run a blog, then please do not use theme-slate.&lt;/p&gt;
+
+&lt;p&gt;You may see some recommendations of jekyll themes. Try them and save your time :)&lt;/p&gt;
+
+&lt;p&gt;Finally, for window users, I summarize how I install jekyll with Contrarium themes in below.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Install git or github, use git-bash as your default git editor.&lt;/li&gt;
+  &lt;li&gt;Install ruby 2.4.x with ruby installer. Dev kit will pop-up after ruby install. Don’t kill it.&lt;/li&gt;
+  &lt;li&gt;Install Dev kit called MSYS2 with MINGW64 or MINGW32. (if you skip this, Make error will appears during jekyll installation.)&lt;/li&gt;
+  &lt;li&gt;Download contrarium themes and use it as skeleton.&lt;/li&gt;
+  &lt;li&gt;Open your git editor, type ‘gem install bundler’ then type ‘bundler install’&lt;/li&gt;
+  &lt;li&gt;Connect your git repository to remote repository.&lt;/li&gt;
+  &lt;li&gt;Check in local using ‘bundle exec jekyll serve’&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Maybe I miss some steps. If you have problems with these steps, please send me a email and let’s solve it TOGETHER!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 21 Dec 2017 00:00:00 +0900</pubDate>
+        <link>http://fallen32.github.io/MLplayground/jekyll/2017/12/21/FirstJekyll.html</link>
+        <guid isPermaLink="true">http://fallen32.github.io/MLplayground/jekyll/2017/12/21/FirstJekyll.html</guid>
+        
+        <category>Jekyll</category>
+        
+        
+        <category>Jekyll</category>
+        
+      </item>
+    
+  </channel>
+</rss>
